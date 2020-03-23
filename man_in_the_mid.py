@@ -1,6 +1,7 @@
 import random
+from Crypto.Util import number
 alpha=50
-p=65537
+p=number.getPrime(2048)
 a=random.getrandbits(16)
 b=random.getrandbits(16)
 o1=random.getrandbits(16)
