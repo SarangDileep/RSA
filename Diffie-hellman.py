@@ -1,0 +1,11 @@
+alpha=50
+p=65537
+a=4400
+b=3232
+A=pow(alpha,a,p)
+B=pow(alpha,b,p)
+KAB=pow(B,a,p)
+KBA=pow(A,b,p)
+print(KBA)
+print(KAB)
+print(KAB==KBA)
